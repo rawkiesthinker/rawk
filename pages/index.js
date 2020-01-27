@@ -13,7 +13,7 @@ const INDEX = () => {
         </div>
       </div>
 
-      <div className="h-screen flex  w-full items-center justify-center text-center">
+      <div className="relative h-screen flex  w-full items-center justify-center text-center">
         <div className="flex-wrap">
         <div className="text-3xl md:text-3xl lg:text-5xl font-default-black uppercase">
           When your ready <br />
@@ -27,10 +27,22 @@ const INDEX = () => {
             I am ready{" "}
           </a>
         </div>
+        
+        
         </div>
-    
+  
+       
       </div>
-      <Footer></Footer>
+      <div className="bottom-0 absolute w-full justify-center flex cursor-pointer p-2">Find out what more I can do for you</div>
+      
+
+<div className="h-auto w-full justify-right flex flex-wrap items-end p-2">
+  <div> <span className="font-default-book cursor-pointer">Earthy</span> Natural Hair Care(Coming Soon)</div>
+</div>
+
+      <Footer>
+      
+      </Footer>
     </div>
   );
 };
