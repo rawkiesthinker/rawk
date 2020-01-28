@@ -38,6 +38,7 @@ const INDEX = () => {
 
 <div className="h-auto w-full justify-right flex flex-wrap items-end p-2">
   <div> <span className="font-default-book cursor-pointer">Earthy</span> Natural Hair Care(Coming Soon)</div>
+  <div> <span className="font-default-book cursor-pointer">Sabali</span> StreetWear (Coming Soon)</div>
 </div>
 
       <Footer>
