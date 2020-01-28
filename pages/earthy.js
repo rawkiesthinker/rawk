@@ -7,9 +7,9 @@ const EARTHY = () => {
     <div>
       <Head title="Rawk"></Head>
       <div className="w-full h-12 text-lg flex items-center p-2">
-        <div className="w-auto flex font-default-book uppercase">Rawk</div>
+        <div className="w-auto flex font-default-book uppercase">Earthy</div>
         <div className="w-full flex justify-end items-end text-sm md:text-md lg:text-lg">
-          developing freedom one app at a time
+          healthy hair and beauty for everyone
         </div>
       </div>
 
@@ -33,12 +33,12 @@ const EARTHY = () => {
   
        
       </div>
-      <div className="bottom-0 absolute w-full justify-center flex cursor-pointer p-2">Find out what more I can do for you</div>
+      {/* <div className="bottom-0 absolute w-full justify-center flex cursor-pointer p-2">Find out what more I can do for you</div>
       
 
 <div className="h-auto w-full justify-right flex flex-wrap items-end p-2">
   <div> <span className="font-default-book cursor-pointer">Earthy</span> Natural Hair Care(Coming Soon)</div>
-</div>
+</div> */}
 
       <Footer>
       
