@@ -1,17 +1,13 @@
 import React from "react";
 import Head from "../components/head";
 import Footer from "../components/footer";
+import Nav from "../components/nav";
 
 const INDEX = () => {
   return (
     <div>
       <Head title="Rawk"></Head>
-      <div className="w-full h-12 text-lg flex items-center p-2">
-        <div className="w-auto flex font-default-book uppercase">Rawk</div>
-        <div className="w-full flex justify-end items-end text-sm md:text-md lg:text-lg">
-          developing freedom one app at a time
-        </div>
-      </div>
+      <Nav></Nav>
 
       <div className="relative h-screen flex  w-full items-center justify-center text-center">
         <div className="flex-wrap">
@@ -37,8 +33,8 @@ const INDEX = () => {
       
 
 <div className="h-auto w-full justify-right flex flex-wrap items-end p-2">
-  <div> <span className="font-default-book cursor-pointer">Earthy</span> Natural Hair Care(Coming Soon)</div>
-  <div> <span className="font-default-book cursor-pointer">Sabali</span> StreetWear (Coming Soon)</div>
+  <div className="w-full"> <span className="font-default-book cursor-pointer">Earthy</span> Natural Hair Care(Coming Soon)</div>
+  <div className="w-full"> <span className="font-default-book cursor-pointer">Sabali</span> StreetWear (Coming Soon)</div>
 </div>
 
       <Footer>
@@ -50,4 +46,4 @@ const INDEX = () => {
 
 export default INDEX;
 
-/* 1911 */
+// 1911 

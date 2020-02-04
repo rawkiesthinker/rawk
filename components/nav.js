@@ -9,48 +9,43 @@ const links = [
   return link
 })
 
-const Nav = () => (
-  <nav>
-    <ul>
-      <li>
-        <Link href='/'>
-          <a>Home</a>
-        </Link>
-      </li>
-      {links.map(({ key, href, label }) => (
-        <li key={key}>
-          <a href={href}>{label}</a>
-        </li>
-      ))}
-    </ul>
+const Nav = (prop) => (
 
-    <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-          Helvetica, sans-serif;
-      }
-      nav {
-        text-align: center;
-      }
-      ul {
-        display: flex;
-        justify-content: space-between;
-      }
-      nav > ul {
-        padding: 4px 16px;
-      }
-      li {
-        display: flex;
-        padding: 6px 8px;
-      }
-      a {
-        color: #067df7;
-        text-decoration: none;
-        font-size: 13px;
-      }
-    `}</style>
-  </nav>
+   <div className="w-full h-12 text-lg flex items-center p-2">
+        <div className="w-1/2 flex font-default-book uppercase">{prop.title}</div>
+       
+        <div className="w-1/2 flex justify-end items-end text-sm md:text-md lg:text-lg">
+          developing freedom one app at a time
+        </div>
+    </div>
+
+    // <style jsx>{`
+    //   :global(body) {
+    //     margin: 0;
+    //     font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
+    //       Helvetica, sans-serif;
+    //   }
+    //   nav {
+    //     text-align: center;
+    //   }
+    //   ul {
+    //     display: flex;
+    //     justify-content: space-between;
+    //   }
+    //   nav > ul {
+    //     padding: 4px 16px;
+    //   }
+    //   li {
+    //     display: flex;
+    //     padding: 6px 8px;
+    //   }
+    //   a {
+    //     color: #067df7;
+    //     text-decoration: none;
+    //     font-size: 13px;
+    //   }
+    // `}</style>
+ 
 )
 
 export default Nav
