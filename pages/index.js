@@ -7,7 +7,7 @@ const INDEX = () => {
   return (
     <div>
       <Head title="Rawk"></Head>
-      <Nav></Nav>
+      <Nav title="Rawk"></Nav>
 
       <div className="relative h-screen flex  w-full items-center justify-center text-center">
         <div className="flex-wrap">
