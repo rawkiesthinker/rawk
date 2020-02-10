@@ -32,6 +32,11 @@ const Head = props => (
     <meta property="og:image" content={props.ogImage || defaultOGImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89414882-2">
+</script>
+
+<script src="/static/googleAnalytics.js"></script>
   </NextHead>
 )
 
