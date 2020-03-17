@@ -1,0 +1,10 @@
+{
+    "name":"Pnematic Expression",
+    "type": "Standard",
+    "Method": "From Template",
+    "Invoice":{
+        "Item_1": "R1500",
+        "Item_2": "R290"
+    },
+    "Total": "R1790"
+}
