@@ -24,37 +24,38 @@ const Head = props => (
 
 
   <title>The old new thing</title>
-  <meta name="description" content="The old new thing"/>
+  <meta name="description" content="Rawk The Old New Thing"/>
   <meta name="author" content="Rawk"/>
 
 <meta property="og:type" content="website" />
-<meta property="og:title" content="The Old New Thing"/>
+<meta property="og:title" content="Rawk"/>
 <meta property="og:description" content="The businesss card of today"/>
 <meta property="og:image" content="https://devuniversity.github.io/dot/card.jpg"/>
 <meta property="og:url" content="https://devuniversity.github.io/dot/"/>
 
-<!-- twitter -->
+{/* <!-- twitter --> */}
 
-<meta name="twitter:title" content="The Old New Thing">
-<meta name="twitter:description" content="The businesss card of today">
-<meta name="twitter:image" content="https://devuniversity.github.io/dot/card.jpg/">
+<meta name="twitter:title" content="Rawk The Old New Thing"/>
+<meta name="twitter:description" content="The businesss card of today"/>
+<meta name="twitter:image" content="https://devuniversity.github.io/dot/card.jpg/"/>
 <meta name="twitter:card" content="summary_large_image"/>
-
-<!-- fb analytics -->
+{/* 
+<!-- fb analytics --> */}
 <meta property="fb:app_id" content="your_app_id" />
+{/* 
+<!-- twitter analytics --> */}
+<meta name="twitter:site" content="@rawkthethinker"/>
 
-<!-- twitter analytics -->
-<meta name="twitter:site" content="@rawkthethinker">
+{/* <!-- fb site name --> */}
+<meta property="og:site_name" content="Rawk The Old New Thing"/>
 
-<!-- fb site name -->
-<meta property="og:site_name" content="The old new thing">
+{/* 
+<!-- twitter alt name --> */}
 
-<!-- twitter alt name -->
-
-<meta name="twitter:image:alt" content="The business card of today">
+<meta name="twitter:image:alt" content="The business card of today"/>
 
 
-<meta name="og:image:alt" content="The business card of today">
+<meta name="og:image:alt" content="The business card of today"/>
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89414882-2">
