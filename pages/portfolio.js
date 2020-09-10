@@ -20,8 +20,8 @@ const Portfolio = () => {
             <p className="text-4xl font-default-bold uppercase opacity-50 hover:opacity-100 hover:underline">Oakwood Academy</p>
             </a>
 
-            <a className="m-2" href="http://www.bongiweaccommodation.co.za/" target="_blank">
-            <p className="text-4xl font-default-bold uppercase opacity-50 hover:opacity-100 hover:underline">Bongiwe Accomodation</p>
+            <a className="m-2" href="http://www.gmabata.co.za/" target="_blank">
+            <p className="text-4xl font-default-bold uppercase opacity-50 hover:opacity-100 hover:underline">Gmabata</p>
             </a>
         
             <a className="m-2" href="https://www.gibs.co.za/" target="_blank">
