@@ -31,12 +31,12 @@ const INDEX = () => {
       </div>
       <div className="bottom-0 absolute w-full justify-center flex cursor-pointer p-2">Find out what more I can do for you</div>
       
-
+{/* 
 <div className="h-auto w-full justify-right flex flex-wrap items-end p-2">
   <div className="w-full"> <span className="font-default-book cursor-pointer">Earthy</span> Natural Hair Care(Coming Soon)</div>
   <div className="w-full"> <span className="font-default-book cursor-pointer">Sabali</span> StreetWear (Coming Soon)</div>
   <div className="w-full"> <span className="font-default-book cursor-pointer">Use Cases</span> Future World Cases (Coming Soon)</div>
-</div>
+</div> */}
 
       <Footer>
       
